@@ -82,6 +82,8 @@ fun MainAppBar(
         }
     }
 }
+
+//Added fun for each doFilter by Floor Category
 // filter by categories function
 private fun Context.doFilterAll() {
 
@@ -231,6 +233,7 @@ fun SearchAppBar(
             ))
     }
 
+    //Added buttons for each Floor Category
     //filter by categories buttons
     val context = LocalContext.current
     ProvideWindowInsets {
